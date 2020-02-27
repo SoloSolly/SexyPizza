@@ -1,18 +1,15 @@
-body{
+.homeimg{
     /* background-image: url(../images/louis-hansel-shotsoflouis-cC0_UO1Obg4-unsplash.jpg); */
     background-image: url(../images/photo-1525518392674-39ba1fca2ec2.jpeg);
     width: 100%;
-    padding-bottom: 50%;
+    padding-bottom: 15%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    overflow: hidden;
+    overflow-x: hidden;
     background-attachment: fixed;
-    
-
    
-
-
+    
 }
 
 #homet{
@@ -26,7 +23,43 @@ body{
     text-align: center;
     font-family: 'Caveat';
     font-size: 30px;
-    color: white;
+    color: white;    
+}
 
-    
+.aside1{
+    font-family: Monoton;
+    color: white;
+    font-size: 30px;
+    padding-left: 50px;
+}
+
+.aside3{
+    font-family: Monoton;
+    color: white;
+    font-size: 30px;
+    padding-left: 1140px;
+
+}
+
+.aside2{
+    font-family: Monoton;
+    color: white;
+    font-size: 30px;
+}
+
+.aside{
+    padding-top: 90px;
+}
+
+.aboutus{
+    background-image: url("../images/louis-hansel-shotsoflouis-G5cpmu-0OV8-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    /* width: 1250px; */
+}
+body{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0%;
 }
