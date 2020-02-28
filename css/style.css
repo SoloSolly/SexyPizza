@@ -1,8 +1,8 @@
 .homeimg{
     /* background-image: url(../images/louis-hansel-shotsoflouis-cC0_UO1Obg4-unsplash.jpg); */
-    background-image: url(../images/photo-1525518392674-39ba1fca2ec2.jpeg);
+    background-image: url("../images/zaria-wright-ki0JDRkvZVY-unsplash.jpg");
     width: 100%;
-    padding-bottom: 15%;
+    padding-bottom: 5%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -16,26 +16,27 @@
     text-align: center;
     font-family: 'Permanent Marker' ;
     color:yellow;
+    /* padding-top: 200px; */
+    font-size: 50px;
     
 }
 
 #homep{
     text-align: center;
     font-family: 'Caveat';
-    font-size: 30px;
-    color: white;    
+    font-size: 40px;
+    color:blue;
+    /* padding-top: 30px;     */
 }
 
 .aside1{
     font-family: Monoton;
-    color: white;
     font-size: 30px;
     padding-left: 50px;
 }
 
 .aside3{
     font-family: Monoton;
-    color: white;
     font-size: 30px;
     padding-left: 1140px;
 
@@ -43,12 +44,13 @@
 
 .aside2{
     font-family: Monoton;
-    color: white;
     font-size: 30px;
 }
 
 .aside{
-    padding-top: 90px;
+    padding-top: 100px;
+    color: black;
+    font-size: 60px;
 }
 
 .aboutus{
@@ -57,9 +59,58 @@
     background-repeat: no-repeat;
     height: 600px;
     /* width: 1250px; */
+    text-align: center;
+    color: white;
+    font-family: 'Neuton';
 }
 body{
     overflow-x: hidden;
     padding: 0;
     margin: 0%;
+}
+
+.button{
+    text-align: center;
+    padding-top: 150px;
+}
+a{
+    color:blue;
+    font-size: 24px;
+    transition: 0.2s;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+a :hover
+{
+    color: yellow;
+    /* background: yellow; */
+    /* transition-delay: 1s; */
+    box-shadow: 0.0.10px, #2196f3, 0.0.40px,#2196f3, 0.0.80px,#2196f3;
+}
+a.span{
+    position: absolute;
+    display: block;
+}
+
+a span:nth-child(1)
+{
+    top:0;
+    width: 100%;
+    left: 0;
+    height: 2px;
+    background: linear-gradient(90deg,transparent, #2196f3);
+}
+
+.button{
+    size: 100px;
+    color: transparent
+
+  
+}
+
+
+#aboutp{
+    font-size: 30px ;
+    font-family: 'Bad Script';
 }
