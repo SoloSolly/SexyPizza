@@ -105,6 +105,7 @@ a span:nth-child(1)
 .button{
     size: 100px;
     color: transparent
+   
 
   
 }
@@ -144,4 +145,69 @@ nav ul li a{
     color: whitesmoke;
     text-transform: uppercase;
     font-size: large;
+}
+
+.formcontainer{
+    background-image: url(../images/louis-hansel-shotsoflouis-cC0_UO1Obg4-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+
+#submit{
+    background-color: transparent;
+
+}
+
+#Message{
+    background-color: transparent;
+    padding-top: 200px;
+    padding-right: 200px;
+    text-align: center;
+   
+}
+
+#Name{
+    background-color: transparent;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-top: 20px;
+}
+#Email{
+    background-color: transparent;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-top: 20px;
+}
+
+
+.bottom{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: coral;
+}
+
+
+.top{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.bottom{
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top: 20px;
+}
+
+.bottom2{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    padding-top: 20px;
+    
 }

@@ -21,11 +21,10 @@
     <header>
             <nav>
                 <ul>
-                <li><a href="#">Home</a></li>
-              <li><a href= "#about"> About</a></li>
-              <li><a href= "#projects">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>    
-        
+                    <li><a class="a" href="index.html">Home</a></li>
+                    <li><a class="a" href="#">About Us</a></li>
+                    <li><a class="a" href="order.html">Services</a></li>
+                    <li><a class="a" href="#mycontact">Contact Us</a></li>
                 </ul>
             </nav>
     </header>
@@ -51,12 +50,15 @@
                 <div class="button">
 
                     <a href="#">
+                      
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
-                        <h1 style="font-family: 'Bungee Inline' ;"> Order Now!</h1>
+                        <!-- <h1 style="font-family: 'Bungee Inline' ;" href="order.html" > Order Now!</h1> -->
+                        <a href="order.html"  style="font-family: 'Bungee Inline' ;"   >Order Now!</a>
                     </a>
+                    
     
                 </div>
             </div>   
@@ -85,25 +87,29 @@
 
 
 
-    <div style="background-image: url(./);" class="formcontainer">
+    <div class="formcontainer">
+        <div class="row">
+           <div class="col-md-12">
         
-        <h1>CONTACT US</h1>
-        <div id="inputs">
-            <form>
-                <div class="top">
-                    <input placeholder="Name"  type="text" id="Name"/>
-                    <input placeholder="Email" type="text" id="Email"/>
-                </div>
+            <h1>CONTACT US</h1>
+            <div id="inputs">
+                <form>
+                    <div class="top">
+                        <input placeholder="Name"  type="text" id="Name"/>
+                        <input placeholder="Email" type="text" id="Email"/>
+                    </div>
+                    
+                    <div class="bottom">
+                        <input  placeholder= " " type="text" id="Message"/>
+                    <div class="bottom2">    
+                        <button style="color: coral;" class="submitBtn" id="submit" type="submit">Submit</button>
+        
+                    </div></div>
                 
-                <div class="bottom">
-                    <input  placeholder= " Give us your feedback :) " type="text" id="Message"/>
-                <div class="bottom2">    
-                    <button style="color: coral;" class="submitBtn" id="submit" type="submit">Submit</button>
-    
-                </div></div>
-               
-            </form>
+                </form>
+            </div>
         </div>
+    </div>
 
 
 
