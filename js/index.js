@@ -50,7 +50,7 @@ $(document).ready(function() {
  //Jquery pick user input from form
 
 
- $("#submit").click(function(){
+ $("#submitcontactus").click(function(){
    var name = $("#Name").val();
    var email = $("#Email").val();
    var info = $("#Message").val();
@@ -58,7 +58,7 @@ $(document).ready(function() {
    $(".Email").text(email);
    $(".Message").text(info);
      $("#output").show();
-     alert("Thank you " + name + " for your feedback. ");
+     alert("Thank you " + name + " for your feedback :) ");
      // alert("Thank you " + name + " for your feedback. " +email);
      
      
