@@ -53,7 +53,7 @@
     font-size: 60px;
 }
 
-.aboutus{
+#aboutus{
     background-image: url("../images/louis-hansel-shotsoflouis-G5cpmu-0OV8-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -226,7 +226,7 @@ nav ul li a{
     color: coral;
 }
 
-.pizzaoptions{
+#pizzaoptions{
     text-align: center;
     background-image: url("../images/slice.jpeg");
 }
@@ -261,3 +261,11 @@ h2{
     /* font-family: 'Neuton'; */
 }
 
+.form-inline{
+    padding-top: 80px;
+    color: white;
+}
+
+.size{
+    padding-top: 50px;
+}

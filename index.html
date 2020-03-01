@@ -22,9 +22,9 @@
             <nav>
                 <ul>
                     <li><a class="a" href="index.html">Home</a></li>
-                    <li><a class="a" href="#">About Us</a></li>
-                    <li><a class="a" href="order.html">Services</a></li>
-                    <li><a class="a" href="#mycontact">Contact Us</a></li>
+                    <li><a class="a" href="#aboutus">About Us</a></li>
+                    <li><a class="a" href="#pizzaoptions">Services</a></li>
+                    <li><a class="a" href="#inputs">Contact Us</a></li>
                 </ul>
             </nav>
     </header>
@@ -40,40 +40,77 @@
                 <div class="aside1">
                     <aside style="font-family: 'Monoton', ;" >FRESH!</aside>
                 </div>
-                 <div class="aside2">
+                <div class="aside2">
                      <aside style="text-align: center;"  >HOT!</aside>
                  </div>
                 <div class="aside3">
                      <aside>SEXY!</aside>
                 </div>
                 
-                <div class="button">
-
-                    <a href="#">
-                      
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <!-- <h1 style="font-family: 'Bungee Inline' ;" href="order.html" > Order Now!</h1> -->
-                        <!-- <a href="order.html"  style="font-family: 'Bungee Inline' ;"   >Order Now!</a> -->
-                    </a>
                     
     
                 </div>
             </div>   
            
-            
-        </div>
     <!-- </div> -->
 
-<form>
-    <figure class="row">
-    <figure class="col-md-12">
-    <figure class="col-md-12">
-    <div class="pizzaoptions">
-        <h2  style="font-family: 'Bungee Inline' ;  color: rgb(50, 241, 255);" >Order Now!</h2>
+    <form>
+        <figure class="row">
+        <figure class="col-md-12">
+        <figure class="col-md-12">
+        <div id="pizzaoptions">
+            <h2  style="font-family: 'Bungee Inline' ;  color: rgb(50, 241, 255);" >Order Now!</h2>
 
+            <section class="container-fluid">
+                <div class="form-inline">
+                <figure class="col-md-12">
+                <label class="size">Size</label>
+                <label class="col-sm-12 col-md-12">Toppings</label>
+                <label class="col-sm-12 col-md-3">Crust</label>
+                <label class="col-sm-12 col-md-3">How many do you want?</label>
+                </figure>
+                </div>
+                <form id="order" class=" form-group form-inline">
+                
+                <select id="size" class="col-sm-12 col-md-12">
+                    <option value="Small">Small K500</option>
+                    <option value="Medium">Medium K700</option>
+                    <option value="Large">Large K950</option>
+                </select>
+                
+                <select id="topping" class="col-sm-12 col-md-12">
+                    <option value="veggie pizza">Vegetable</option>
+                    <option value="hawaii pizza">Hawaiian</option>
+                    <option value="beef pizza">Beef</option>
+                    <option value="chicken pizza">Chicken</option>
+                </select>
+                
+                <select id="crust" class="col-sm-12 col-md-3">
+                    <option value="crispy">Crispy</option>
+                    <option value="stuffed">Stuffed</option>
+                    <option value="glutenfree">Gluten-free</option>
+                </select>
+                <input type="number" placeholder="how many do you want?" id="qty" class="col-sm-12 col-md-3">
+                <input type="submit" id="submit" class="btn" value="Another?">
+    </form>
+                <article id="yourorder">
+                    <h2>Your order:</h2>
+                    <p>
+                        <span id="displayqty"></span>
+                        <span id="displaycrust"></span>
+                        <span id="displaysize"></span>
+                        <span id="displaytopping"></span>
+                    </p>
+                </article>
+                <article class="form-inline">
+                <button id="orderme" value="Delivery Order">Delivery Order</button>
+                <button id="pickme" value="PickUp Order">PickUp Order</button>
+                </article>
+            </section>
+
+
+
+<!--         
     <div class="size">
         <select id="size" class="input" required>
             <option value=" hidden disabled selected value"> Pizza size....</option>
@@ -119,7 +156,7 @@
      <article class="form-inline">
         <button id="orderme" value="Delivery Order">Delivery Order</button>
         <button id="pickme" value="PickUp Order">PickUp Order</button>
-     </article>
+     </article> -->
 
 </div>
 </figure></figure></figure>
@@ -127,17 +164,10 @@
 
 </form>
 
-
-
-
-
-
-
-
     <figure class="row">
-   <figure class="col-md-12">
     <figure class="col-md-12">
-    <div class="aboutus">
+    <figure class="col-md-12">
+    <div id="aboutus">
         <h1>ABOUT  US</h1>
             <div id="aboutp">
                 <p>Your Sexy ,Were Sexy , Our pizaa is Sexy</p>
@@ -180,6 +210,9 @@
 
 
     </div>
+
+    <script src="./js/index.js"></script> 
+    <script src="./js/jquery-3.4.1.js"></script>
 
    
 </body>
