@@ -10,7 +10,7 @@ $(document).ready(function() {
  
        var crust = $("#crust option:selected").value();
  
-       var qty = parseInt ($("input#qty").val());
+       var qty = parseInt ($("input#qty").value());
  
        
        //Jquery append users order
