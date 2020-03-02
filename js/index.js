@@ -6,7 +6,7 @@ $(document).ready(function() {
 
        var size = $("#size option:selected").value();
  
-       var topping = $("#topping option:selected").val();
+       var topping = $("#topping option:selected").value();
  
        var crust = $("#crust option:selected").val();
  
