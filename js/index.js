@@ -37,7 +37,7 @@ $(document).ready(function() {
 
 
  $("#submitcontactus").click(function(){
-   var name = $("#Name").val();
+   var name = $("#Name").value();
    var email = $("#Email").val();
    var info = $("#Message").val();
    $(".Name").text(name);
