@@ -4,13 +4,13 @@
 $(document).ready(function() {
     $("#submit").click(function(event) {
 
-       var size = $("#size option:selected").value();
+       var size = $("#size option:selected").val();
  
-       var topping = $("#topping option:selected").value();
+       var topping = $("#topping option:selected").val();
  
-       var crust = $("#crust option:selected").value();
+       var crust = $("#crust option:selected").val();
  
-       var qty = parseInt ($("input#qty").value());
+       var qty = parseInt ($("input#qty").val());
  
        
        //Jquery append users order
@@ -37,9 +37,9 @@ $(document).ready(function() {
 
 
  $("#submitcontactus").click(function(){
-   var name = $("#Name").value();
-   var email = $("#Email").value();
-   var info = $("#Message").value();
+   var name = $("#Name").val();
+   var email = $("#Email").val();
+   var info = $("#Message").val();
    $(".Name").text(name);
    $(".Email").text(email);
    $(".Message").text(info);
