@@ -3,24 +3,15 @@
 
 $(document).ready(function() {
     $("#submit").click(function(event) {
-       // var sizeInput = document.getElementById("size");
-       // var size = sizeInput.options[sizeInput.selectedIndex].text();
-       var size = $("#size option:selected").val();
+
+       var size = $("#size option:selected").value();
  
-       // var toppingInput = document.getElementById("topping");
-       // var topping = toppingInput.options[toppingInput.selectedIndex].text();
        var topping = $("#topping option:selected").val();
  
-       // var crustInput = document.getElementById("crust");
-       // var crust = crustInput.options[crustInput.selectedIndex].text();
        var crust = $("#crust option:selected").val();
  
        var qty = parseInt ($("input#qty").val());
  
-       // alert(size);
-       // alert(topping);
-       // alert(crust);
-       // alert(qty);
        
        //Jquery append users order
        $("#displayqty").append(qty);
@@ -42,12 +33,7 @@ $(document).ready(function() {
  
  });
  
- // function Pizza(size, toppings, crust, ) {
- //    this.crust = crust;
- //    this.size = size;
- //    this.toppings = toppings;
- // }
- //Jquery pick user input from form
+ 
 
 
  $("#submitcontactus").click(function(){
