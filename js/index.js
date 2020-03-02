@@ -38,8 +38,8 @@ $(document).ready(function() {
 
  $("#submitcontactus").click(function(){
    var name = $("#Name").value();
-   var email = $("#Email").val();
-   var info = $("#Message").val();
+   var email = $("#Email").value();
+   var info = $("#Message").value();
    $(".Name").text(name);
    $(".Email").text(email);
    $(".Message").text(info);
