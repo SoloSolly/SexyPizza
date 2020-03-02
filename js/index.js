@@ -8,7 +8,7 @@ $(document).ready(function() {
  
        var topping = $("#topping option:selected").value();
  
-       var crust = $("#crust option:selected").val();
+       var crust = $("#crust option:selected").value();
  
        var qty = parseInt ($("input#qty").val());
  
