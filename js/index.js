@@ -37,22 +37,38 @@ function checkout(){
    pizzaTotal = crustOutput + toppingOutput + pizzaOutput;
    qty = pizzaTotal * pizzaNumber + delivery;
    qty1 = pizzaTotal * pizzaNumber;
+   
+
 }
+
+$ (document).ready(function(){
+   $("button#delivery").click(function(){
+      var location = prompt("Do you want your pizza Delivered? Enter location :");
+      alert(`You have ordered ${size} pizza with ${topping} topping and ${crust} crust. Number of pizza ordered is ${pizzaNumber} and your total is ${qty}.`);
+      alert(`Delivery will be at ${location}`);
+      console.log("this is else if 3")
+   })
+})
 
 function checkValues(){
    if(pizzaOutput==0&&toppingOutput==0&&crustOutput==0){
       alert("Select a pizza size, topping and crust .");
+      console.log("this is if")
    }else if(toppingOutput==0||crustOutput==0||pizzaOutput==0){
       alert("Select a pizza size, topping and crust .");
+      console.log("this is else if 1")
    }else if(verifier==1){
       alert(`You have ordered ${size} pizza with ${topping} topping and ${crust} crust. Number of pizza ordered is ${pizzaNumber} and your total is ${qty}.`);
       alert("Pick your pizza at the nearest store");
-   }else if(verifier==2){
-      var location = prompt("Do you want your pizza Delivered? Enter location :");
-      // location2 = location;
-      alert(`You have ordered ${size} pizza with ${topping} topping and ${crust} crust. Number of pizza ordered is ${pizzaNumber} and your total is ${qty}.`);
-      alert(`Delivery will be at ${location}`);
+      console.log("this is else if 2")
    }
+   // }else if(verifier==2){
+   //    var location = prompt("Do you want your pizza Delivered? Enter location :");
+   //    // location2 = location;
+   //    alert(`You have ordered ${size} pizza with ${topping} topping and ${crust} crust. Number of pizza ordered is ${pizzaNumber} and your total is ${qty}.`);
+   //    alert(`Delivery will be at ${location}`);
+   //    console.log("this is else if 3")
+   // }
 }
 
 function verifyy(){

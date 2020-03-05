@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SexyPizza</title>
-    <script src="./js/index.js"></script>
+   
     <script src="./js/jquery-3.4.1.js"></script>
     <!-- <link rel="stylesheet" href="./css/bootstrap.css" type="text/css"> -->
     <link rel="stylesheet" href="./css/style.css" type="text/css">
@@ -54,7 +54,7 @@
            
     <!-- </div> -->
 
-    <form>
+    <form onsubmit="return false">
         <figure class="row">
         <figure class="col-md-12">
         <figure class="col-md-12">
@@ -94,7 +94,7 @@
                     <option value="glutenfree">Gluten-free 200/=</option>
                 </select>
                 <input type="number" placeholder="how many do you want?" id="qty" class="col-sm-12 col-md-3">
-                <input type="submit" id="submit" class="btn" value="Another?">
+                <!-- <input type="submit" id="submit" class="btn" value="Another?"> -->
     </form>
                 <article id="yourorder">
                     <h2>Your order:</h2>
@@ -105,10 +105,10 @@
                         <span id="displaytopping"></span>
                     </p>
                 </article>
-                <article class="form-inline">
-                <button id="orderme" value="Delivery Order" onclick="checkout(); checkValues(); verifyy();">Delivery Order</button>
-                <button  value="Pickup Order" onclick="checkout(); checkValues(); pickup(); verify();">Pickup Order</button>
-                </article>
+                <!-- <article class="form-inline"> -->
+                    <button id="delivery" value="Delivery Order" onclick="checkout(); checkValues(); verifyy();">Delivery Order</button>
+                    <button  value="Pickup Order" onclick="checkout(); checkValues(); pickup(); verify();">Pickup Order</button>
+                <!-- </article> -->
             </section>
 
 
@@ -164,7 +164,11 @@
 
 
     </div>
-
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+      <script src="./js/index.js"></script>
     <script src="./js/index.js"></script> 
     <!-- <script src="./js/jquery-3.4.1.js"></script> -->
 
